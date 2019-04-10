@@ -22,7 +22,8 @@ def tamper(payload, **kwargs):
     Escapes a char encoded payload
 
     Tested against:
-        * This is just a proof of concept but used for sqlinjection against MySQL 5.7.25
+        * This is just a proof of concept but used for SQL injection against MySQL 5.7.25
+          via a GraphQL query
 
     Notes:
         * Useful when passing a payload as a string via a JSON context
