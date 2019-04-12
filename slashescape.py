@@ -26,7 +26,7 @@ def tamper(payload, **kwargs):
           via a GraphQL query
 
     Notes:
-        * Useful when passing a payload as a string via a JSON context
+        * Useful when passing a char unicode encoded payload as part of the GraphQL query as a string via a JSON context
 
     >>> tamper('\u0022')
     '\\u0022'
