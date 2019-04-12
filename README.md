@@ -1,4 +1,4 @@
-# charescape
-A sqlmap tamper script to escape an encoded char string
+# sqlmap-tamper-singleescape
+A sqlmap tamper script to escape slashes
 
-Useful when passing a payload as a string via a JSON context
+Useful when passing a payload as a string via a JSON context with char unicode encoded values
